@@ -1,4 +1,4 @@
-uuid: 3b7a2501-a102-4230-ba24-54d55fe8f42c
+uuid: 0f80981f-77c7-4437-9569-f0e51c984174
 langcode: fr
 status: true
 dependencies:
@@ -7,18 +7,18 @@ dependencies:
   module:
     - system
   theme:
-    - bartik
+    - nexus
 _core:
-  default_config_hash: DweBpscQZdG0-fHkSpUzdYucrNH45G_KF7Z82V-oyQM
-id: bartik_account_menu
-theme: bartik
-region: secondary_menu
-weight: 0
+  default_config_hash: CcxMUXh59uGF9jT9SLxBv0S0GJJtsWh2Q1I2Al7tTB4
+id: nexus_user_account_menu
+theme: nexus
+region: sidebar_first
+weight: 10
 provider: null
 plugin: 'system_menu_block:account'
 settings:
   id: 'system_menu_block:account'
-  label: 'Menu du compte de l''utilisateur'
+  label: 'User account menu'
   provider: system
   label_display: '0'
   level: 1

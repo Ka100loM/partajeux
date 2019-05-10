@@ -1,22 +1,22 @@
-uuid: d79c01fa-62fe-4562-a3b2-fd27b2b59029
+uuid: d9b2148d-1849-4e18-a623-a58902665c31
 langcode: fr
 status: true
 dependencies:
   module:
     - system
   theme:
-    - bartik
+    - nexus
 _core:
-  default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
-id: bartik_breadcrumbs
-theme: bartik
-region: breadcrumb
-weight: 0
+  default_config_hash: NQr0oD4xpdVUQYKiNIOzCtjpyeCQYCgNi1a4on8lyC0
+id: nexus_breadcrumbs
+theme: nexus
+region: highlighted
+weight: 50
 provider: null
 plugin: system_breadcrumb_block
 settings:
   id: system_breadcrumb_block
-  label: 'Fils d''ariane'
+  label: Breadcrumbs
   provider: system
   label_display: '0'
 visibility: {  }

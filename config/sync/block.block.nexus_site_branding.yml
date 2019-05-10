@@ -1,22 +1,22 @@
-uuid: c5c54ef0-e682-44b1-a8f2-26d7c19fdef4
+uuid: fd8c5f4f-c72d-4185-a4ca-dd10386fbcf9
 langcode: fr
 status: true
 dependencies:
   module:
     - system
   theme:
-    - bartik
+    - nexus
 _core:
-  default_config_hash: NDwadleLD3YVSbDUaakxyYZyINYtkFtOVGShfq4kWy8
-id: bartik_branding
-theme: bartik
+  default_config_hash: 32P1o_YHecHsgAQuN019rNAZ1xrWwYTqhFO0k_EG_qE
+id: nexus_site_branding
+theme: nexus
 region: header
 weight: 0
 provider: null
 plugin: system_branding_block
 settings:
   id: system_branding_block
-  label: 'Marque du site'
+  label: 'Site branding'
   provider: system
   label_display: '0'
   use_site_logo: true
