@@ -1,0 +1,31 @@
+uuid: 8c0eb6fb-7a73-472e-b88d-adc9dd0fbe64
+langcode: fr
+status: false
+dependencies: {  }
+id: dev
+label: DEV
+description: ''
+folder: ../config/dev
+module:
+  admin_toolbar_tools: 0
+  color: 0
+  contextual: 0
+  dblog: 0
+  devel: 0
+  field_ui: 0
+  help: 0
+  history: 0
+  kint: 0
+  menu_ui: 0
+  quickedit: 0
+  shortcut: 0
+  tour: 0
+  views_ui: 0
+  webform_ui: 0
+  webprofiler: 0
+theme: {  }
+blacklist: {  }
+graylist: {  }
+graylist_dependents: true
+graylist_skip_equal: true
+weight: 0
