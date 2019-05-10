@@ -1,0 +1,38 @@
+uuid: 972bdba3-fdb3-483d-b2c8-60e5c9725bb1
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_image
+    - node.type.fiche_de_jeux
+  module:
+    - image
+id: node.fiche_de_jeux.field_image
+field_name: field_image
+entity_type: node
+bundle: fiche_de_jeux
+label: 'Image d''une fiche de jeux'
+description: 'ajout d''une image pour une fiche de jeux'
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png jpg jpeg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

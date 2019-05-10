@@ -1,0 +1,22 @@
+uuid: 081c53dc-9ffa-4046-b5c4-ad94505f811b
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.fiche_de_jeux
+  module:
+    - text
+id: node.fiche_de_jeux.body
+field_name: body
+entity_type: node
+bundle: fiche_de_jeux
+label: 'Description '
+description: 'Description de jeux'
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

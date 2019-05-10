@@ -1,0 +1,20 @@
+uuid: a8b149bd-8978-4437-858b-aa24b66e8ab2
+langcode: en
+status: true
+dependencies:
+  theme:
+    - partajeux
+_core:
+  default_config_hash: ytYyu-zDxI_ZG4MSUcsWzsIm6_Rdk1yUhnk4mfJrmSs
+id: partajeux_local_actions
+theme: partajeux
+region: help
+weight: 20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

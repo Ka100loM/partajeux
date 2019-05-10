@@ -1,0 +1,97 @@
+uuid: 7201506b-00c9-403c-b025-58be78998415
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.node.fiche_de_jeux.body
+    - field.field.node.fiche_de_jeux.field_age_maximum
+    - field.field.node.fiche_de_jeux.field_age_minimum
+    - field.field.node.fiche_de_jeux.field_annee_d_edition
+    - field.field.node.fiche_de_jeux.field_auteur
+    - field.field.node.fiche_de_jeux.field_edition
+    - field.field.node.fiche_de_jeux.field_effectif
+    - field.field.node.fiche_de_jeux.field_image
+    - node.type.fiche_de_jeux
+  module:
+    - image
+    - text
+    - user
+id: node.fiche_de_jeux.default
+targetEntityType: node
+bundle: fiche_de_jeux
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_age_maximum:
+    weight: 107
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  field_age_minimum:
+    weight: 108
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  field_annee_d_edition:
+    weight: 105
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_auteur:
+    weight: 103
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_edition:
+    weight: 104
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_effectif:
+    weight: 106
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  field_image:
+    weight: 102
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true

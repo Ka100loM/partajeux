@@ -1,0 +1,23 @@
+uuid: 338d6e5a-f7b7-45aa-b6ac-0ae90f16e8ae
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_effectif
+    - node.type.fiche_de_jeux
+id: node.fiche_de_jeux.field_effectif
+field_name: field_effectif
+entity_type: node
+bundle: fiche_de_jeux
+label: Effectif
+description: 'Le nombre maximum de personne qui peuvent jouer le jeux'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: personne(s)
+field_type: integer
