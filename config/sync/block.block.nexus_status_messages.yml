@@ -1,22 +1,22 @@
-uuid: 371d1936-2e63-4f05-8087-fb7b6efcce50
+uuid: 6112b03c-38de-4cc6-9568-6afd6c0fa3c3
 langcode: fr
 status: true
 dependencies:
   module:
     - system
   theme:
-    - bartik
+    - nexus
 _core:
-  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
-id: bartik_messages
-theme: bartik
+  default_config_hash: CtLvpFsy_cj9upvydBuL1MKWm_nNWR64KDi8AOH8_WY
+id: nexus_status_messages
+theme: nexus
 region: highlighted
-weight: 0
+weight: 60
 provider: null
 plugin: system_messages_block
 settings:
   id: system_messages_block
-  label: 'Messages de statut'
+  label: 'Status messages'
   provider: system
   label_display: '0'
 visibility: {  }

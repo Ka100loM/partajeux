@@ -1,4 +1,4 @@
-uuid: a1264fd2-4f4b-49c8-b343-8722a9041fca
+uuid: 2e12e272-d233-4559-87cd-85f85e360688
 langcode: fr
 status: true
 dependencies:
@@ -7,18 +7,18 @@ dependencies:
   module:
     - system
   theme:
-    - bartik
+    - nexus
 _core:
-  default_config_hash: rx9IrdDv7Ldc4kpalZAxdhIPZfYIeOMh1N-qKoQZwHo
-id: bartik_main_menu
-theme: bartik
-region: primary_menu
-weight: 0
+  default_config_hash: 5usur55fAPabYWfM45tzAMcOLUZ4fr8Rf_bVHfBwXYo
+id: nexus_main_navigation
+theme: nexus
+region: main_navigation
+weight: 10
 provider: null
 plugin: 'system_menu_block:main'
 settings:
   id: 'system_menu_block:main'
-  label: 'Navigation principale'
+  label: 'Main navigation'
   provider: system
   label_display: '0'
   level: 1

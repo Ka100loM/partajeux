@@ -1,4 +1,4 @@
-uuid: cf80331e-e699-42f4-937f-22d97e468eda
+uuid: 88c599de-4348-488a-a335-fbb078d815f5
 langcode: fr
 status: true
 dependencies:
@@ -7,18 +7,18 @@ dependencies:
   module:
     - system
   theme:
-    - bartik
+    - nexus
 _core:
-  default_config_hash: NeHSoqm4XFqA7_0bDmR429ZZQt3LRbZMNRJTMsFyOfI
-id: bartik_tools
-theme: bartik
+  default_config_hash: 0YfrEJk6cHP9tEHKCb3K27S3D5lROTNmMGgqeSt-cWE
+id: nexus_tools
+theme: nexus
 region: sidebar_first
-weight: 0
+weight: 30
 provider: null
 plugin: 'system_menu_block:tools'
 settings:
   id: 'system_menu_block:tools'
-  label: Outils
+  label: Tools
   provider: system
   label_display: visible
   level: 1
