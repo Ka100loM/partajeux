@@ -1,0 +1,25 @@
+uuid: 08ad3db4-1094-491e-9f0d-a36f4b41a224
+langcode: fr
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - partajeux
+_core:
+  default_config_hash: 32P1o_YHecHsgAQuN019rNAZ1xrWwYTqhFO0k_EG_qE
+id: partajeux_site_branding
+theme: partajeux
+region: header
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }

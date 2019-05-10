@@ -1,0 +1,31 @@
+uuid: 1e40cca8-00cd-4688-a418-97635149f9e5
+langcode: fr
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.fiche_de_jeux.body
+    - node.type.fiche_de_jeux
+  module:
+    - text
+    - user
+id: node.fiche_de_jeux.teaser
+targetEntityType: node
+bundle: fiche_de_jeux
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true

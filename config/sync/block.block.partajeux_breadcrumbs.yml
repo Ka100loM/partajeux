@@ -1,0 +1,22 @@
+uuid: 7a3fa919-2f98-4571-9e65-3c90e10c1fad
+langcode: fr
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - partajeux
+_core:
+  default_config_hash: NQr0oD4xpdVUQYKiNIOzCtjpyeCQYCgNi1a4on8lyC0
+id: partajeux_breadcrumbs
+theme: partajeux
+region: highlighted
+weight: 50
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

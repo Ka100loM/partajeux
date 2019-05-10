@@ -1,0 +1,22 @@
+uuid: cf2dde81-580e-4362-9d99-7b8abcfc52b9
+langcode: fr
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - partajeux
+_core:
+  default_config_hash: CtLvpFsy_cj9upvydBuL1MKWm_nNWR64KDi8AOH8_WY
+id: partajeux_status_messages
+theme: partajeux
+region: highlighted
+weight: 60
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

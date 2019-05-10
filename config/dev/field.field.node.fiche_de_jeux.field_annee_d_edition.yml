@@ -1,0 +1,19 @@
+uuid: d54519a0-f613-404c-9e33-ef53214f762e
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_annee_d_edition
+    - node.type.fiche_de_jeux
+id: node.fiche_de_jeux.field_annee_d_edition
+field_name: field_annee_d_edition
+entity_type: node
+bundle: fiche_de_jeux
+label: 'Année d''édition'
+description: 'L''année d''édition de jeux'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

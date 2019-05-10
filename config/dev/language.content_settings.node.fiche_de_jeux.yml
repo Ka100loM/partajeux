@@ -1,0 +1,11 @@
+uuid: 597d1298-9d92-4847-9cfb-279077db5add
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.fiche_de_jeux
+id: node.fiche_de_jeux
+target_entity_type_id: node
+target_bundle: fiche_de_jeux
+default_langcode: site_default
+language_alterable: false

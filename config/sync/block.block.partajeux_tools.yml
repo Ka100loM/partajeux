@@ -1,0 +1,26 @@
+uuid: 8d12b539-a6b6-4f6c-88fd-70d3e7679966
+langcode: fr
+status: true
+dependencies:
+  config:
+    - system.menu.tools
+  module:
+    - system
+  theme:
+    - partajeux
+_core:
+  default_config_hash: 0YfrEJk6cHP9tEHKCb3K27S3D5lROTNmMGgqeSt-cWE
+id: partajeux_tools
+theme: partajeux
+region: sidebar_first
+weight: 30
+provider: null
+plugin: 'system_menu_block:tools'
+settings:
+  id: 'system_menu_block:tools'
+  label: Tools
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+visibility: {  }

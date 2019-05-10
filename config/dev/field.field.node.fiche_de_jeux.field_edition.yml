@@ -1,0 +1,19 @@
+uuid: 6b1d9692-11b4-41d1-a692-b8c970f1d9e0
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_edition
+    - node.type.fiche_de_jeux
+id: node.fiche_de_jeux.field_edition
+field_name: field_edition
+entity_type: node
+bundle: fiche_de_jeux
+label: Edition
+description: 'L''édition de jeux'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

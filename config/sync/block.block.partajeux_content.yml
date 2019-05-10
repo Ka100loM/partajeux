@@ -1,0 +1,22 @@
+uuid: fdb0da0b-f719-4c67-af3a-ec965fdbb0fb
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - partajeux
+_core:
+  default_config_hash: s_aYY5hLMsr1NWYy58YvgJ_E8n2civYXbvKYrvJbA_4
+id: partajeux_content
+theme: partajeux
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }
