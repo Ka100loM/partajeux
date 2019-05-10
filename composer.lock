@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e64e0adb84af519d4068ee80b0e87bcf",
+    "content-hash": "2f04f31adfe6f8ecdb618cd5f15c12a3",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -2889,6 +2889,71 @@
             "time": "2019-04-28T02:33:40+00:00"
         },
         {
+            "name": "drupal/libraries",
+            "version": "3.0.0-alpha1",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/libraries.git",
+                "reference": "8.x-3.0-alpha1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/libraries-8.x-3.0-alpha1.zip",
+                "reference": "8.x-3.0-alpha1",
+                "shasum": "bb07036b1eaeea7d736fc7e72416238830cd8d67"
+            },
+            "require": {
+                "drupal/core": "~8.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-3.x": "3.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-3.0-alpha1",
+                    "datestamp": "1517046484",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Alpha releases are not covered by Drupal security advisories."
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Pol",
+                    "homepage": "https://www.drupal.org/user/47194"
+                },
+                {
+                    "name": "joseph.olstad",
+                    "homepage": "https://www.drupal.org/user/1321830"
+                },
+                {
+                    "name": "rjacobs",
+                    "homepage": "https://www.drupal.org/user/422459"
+                },
+                {
+                    "name": "sun",
+                    "homepage": "https://www.drupal.org/user/54136"
+                },
+                {
+                    "name": "tstoeckler",
+                    "homepage": "https://www.drupal.org/user/107158"
+                }
+            ],
+            "description": "Allows version-dependent and shared usage of external libraries in Drupal.",
+            "homepage": "http://drupal.org/project/libraries",
+            "support": {
+                "source": "http://cgit.drupalcode.org/libraries",
+                "issues": "http://drupal.org/project/issues/libraries",
+                "irc": "irc://irc.freenode.org/drupal-contribute"
+            }
+        },
+        {
             "name": "drupal/maillog",
             "version": "dev-1.x",
             "source": {
@@ -2941,6 +3006,106 @@
                 "source": "https://git.drupalcode.org/project/maillog"
             },
             "time": "2016-08-05T21:18:07+00:00"
+        },
+        {
+            "name": "drupal/masonry",
+            "version": "1.0.0-rc2",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/masonry.git",
+                "reference": "8.x-1.0-rc2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/masonry-8.x-1.0-rc2.zip",
+                "reference": "8.x-1.0-rc2",
+                "shasum": "b16e57dd55ac90d09914aa2731a7b639d3dc1788"
+            },
+            "require": {
+                "drupal/core": "~8.0",
+                "drupal/libraries": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.0-rc2",
+                    "datestamp": "1456138139",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "RC releases are not covered by Drupal security advisories."
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "BWPanda",
+                    "homepage": "https://www.drupal.org/user/289407"
+                },
+                {
+                    "name": "Dom.",
+                    "homepage": "https://www.drupal.org/user/801982"
+                }
+            ],
+            "description": "Provides an API for integrating the jQuery Masonry plugin with Drupal.",
+            "homepage": "https://www.drupal.org/project/masonry",
+            "support": {
+                "source": "https://git.drupalcode.org/project/masonry"
+            }
+        },
+        {
+            "name": "drupal/masonry_views",
+            "version": "1.0.0-rc1",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/masonry_views.git",
+                "reference": "8.x-1.0-rc1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/masonry_views-8.x-1.0-rc1.zip",
+                "reference": "8.x-1.0-rc1",
+                "shasum": "9b7d26465bffbd83ed38815a2afd88ee7e350378"
+            },
+            "require": {
+                "drupal/core": "*",
+                "drupal/masonry": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.0-rc1",
+                    "datestamp": "1456138139",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "RC releases are not covered by Drupal security advisories."
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Dom.",
+                    "homepage": "https://www.drupal.org/user/801982"
+                }
+            ],
+            "description": "Provides a Views plugin for displaying content in a Masonry layout.",
+            "homepage": "https://www.drupal.org/project/masonry_views",
+            "support": {
+                "source": "https://git.drupalcode.org/project/masonry_views"
+            }
         },
         {
             "name": "drupal/module_filter",
@@ -8748,7 +8913,9 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "drupal/maillog": 20
+        "drupal/maillog": 20,
+        "drupal/masonry": 5,
+        "drupal/masonry_views": 5
     },
     "prefer-stable": true,
     "prefer-lowest": false,
