@@ -19,8 +19,11 @@ module:
   filter: 0
   image: 0
   language: 0
+  libraries: 0
   link: 0
   locale: 0
+  masonry: 0
+  masonry_views: 0
   module_filter: 0
   node: 0
   options: 0
