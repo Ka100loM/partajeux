@@ -1,16 +1,16 @@
-uuid: fae9eeea-9b95-4076-83dc-7bdd7f6104a5
+uuid: 435d7d74-7eb7-48de-b599-32194851d674
 langcode: fr
 status: true
 dependencies:
   module:
     - node
-id: node.field_age_minimum
-field_name: field_age_minimum
+    - taxonomy
+id: node.field_age
+field_name: field_age
 entity_type: node
-type: integer
+type: entity_reference
 settings:
-  unsigned: false
-  size: normal
+  target_type: taxonomy_term
 module: core
 locked: false
 cardinality: 1
