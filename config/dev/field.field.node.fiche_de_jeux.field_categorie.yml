@@ -1,0 +1,21 @@
+uuid: d471061d-2812-49ac-a189-62835126877a
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_categorie
+    - node.type.fiche_de_jeux
+id: node.fiche_de_jeux.field_categorie
+field_name: field_categorie
+entity_type: node
+bundle: fiche_de_jeux
+label: Catégorie
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings: {  }
+field_type: entity_reference
