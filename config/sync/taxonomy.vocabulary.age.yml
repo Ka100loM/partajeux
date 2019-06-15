@@ -1,0 +1,9 @@
+uuid: a5e64140-09a3-4447-9880-1d04554d95d3
+langcode: fr
+status: true
+dependencies: {  }
+name: Âge
+vid: age
+description: 'Définir l''âge recommandé pour le jeu'
+hierarchy: 0
+weight: 0
