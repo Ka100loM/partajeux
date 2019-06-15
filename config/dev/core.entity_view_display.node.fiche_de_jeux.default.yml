@@ -4,8 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.node.fiche_de_jeux.body
-    - field.field.node.fiche_de_jeux.field_age_maximum
-    - field.field.node.fiche_de_jeux.field_age_minimum
+    - field.field.node.fiche_de_jeux.field_age
     - field.field.node.fiche_de_jeux.field_annee_d_edition
     - field.field.node.fiche_de_jeux.field_auteur
     - field.field.node.fiche_de_jeux.field_categorie
@@ -29,23 +28,13 @@ content:
     settings: {  }
     third_party_settings: {  }
     region: content
-  field_age_maximum:
+  field_age:
     weight: 8
     label: above
     settings:
-      thousand_separator: ''
-      prefix_suffix: true
+      link: true
     third_party_settings: {  }
-    type: number_integer
-    region: content
-  field_age_minimum:
-    weight: 9
-    label: above
-    settings:
-      thousand_separator: ''
-      prefix_suffix: true
-    third_party_settings: {  }
-    type: number_integer
+    type: entity_reference_label
     region: content
   field_annee_d_edition:
     weight: 6

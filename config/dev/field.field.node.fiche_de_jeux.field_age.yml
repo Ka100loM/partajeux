@@ -1,16 +1,16 @@
-uuid: d471061d-2812-49ac-a189-62835126877a
+uuid: b9d88491-f590-4f07-b3e0-473393ad761e
 langcode: fr
 status: true
 dependencies:
   config:
-    - field.storage.node.field_categorie
+    - field.storage.node.field_age
     - node.type.fiche_de_jeux
-    - taxonomy.vocabulary.categorie
-id: node.fiche_de_jeux.field_categorie
-field_name: field_categorie
+    - taxonomy.vocabulary.age
+id: node.fiche_de_jeux.field_age
+field_name: field_age
 entity_type: node
 bundle: fiche_de_jeux
-label: Catégorie
+label: Âge
 description: ''
 required: false
 translatable: false
@@ -20,7 +20,7 @@ settings:
   handler: 'default:taxonomy_term'
   handler_settings:
     target_bundles:
-      categorie: categorie
+      age: age
     sort:
       field: name
       direction: asc
