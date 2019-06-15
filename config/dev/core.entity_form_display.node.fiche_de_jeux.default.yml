@@ -8,6 +8,7 @@ dependencies:
     - field.field.node.fiche_de_jeux.field_age_minimum
     - field.field.node.fiche_de_jeux.field_annee_d_edition
     - field.field.node.fiche_de_jeux.field_auteur
+    - field.field.node.fiche_de_jeux.field_categorie
     - field.field.node.fiche_de_jeux.field_edition
     - field.field.node.fiche_de_jeux.field_effectif
     - field.field.node.fiche_de_jeux.field_image
@@ -66,6 +67,12 @@ content:
       placeholder: ''
     third_party_settings: {  }
     type: string_textfield
+    region: content
+  field_categorie:
+    weight: 129
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
     region: content
   field_edition:
     weight: 124

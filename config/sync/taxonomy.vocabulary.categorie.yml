@@ -1,0 +1,9 @@
+uuid: 085e9212-dc24-466c-b413-19c35ace4faf
+langcode: fr
+status: true
+dependencies: {  }
+name: Catégorie
+vid: categorie
+description: 'Liste des catégories de jeux'
+hierarchy: 0
+weight: 0
