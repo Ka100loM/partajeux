@@ -30,6 +30,7 @@
         "drupal/masonry_views": "^1.0@RC",
         "drupal/module_filter": "^3.1",
         "drupal/nexus": "^1.4",
+        "drupal/redirect_after_login": "^2.5",
         "drupal/webform": "^5.2",
         "drush/drush": "^9.0.0",
         "twig/twig": "1.39.1",

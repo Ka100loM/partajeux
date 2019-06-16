@@ -154,6 +154,7 @@
   <div id="main-content">
     <div class="container">
       <div class="row">
+              {% if logged_in %}
               {% if page.sidebar_first %}
           <aside id="sidebar" class="col-sm-4" role="complementary">
           {{ attach_library('partajeux/slide-menu-css') }}
@@ -180,8 +181,9 @@
            
           </aside>
         {% endif %}
+        {% endif %}
         {% if page.sidebar_first %}
-          {% set primary_col = 8 %}
+          {% set primary_col = 12 %}
         {% else %}
           {% set primary_col = 12 %}
         {% endif %}
