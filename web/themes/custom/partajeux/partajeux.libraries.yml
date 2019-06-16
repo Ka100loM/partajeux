@@ -1,0 +1,12 @@
+slide-menu-css:
+  css:
+    theme:
+      https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/css/bootstrap.css: { type: external, minified: true }
+      https://use.fontawesome.com/releases/v5.0.13/css/all.css: { type: external, minified: true }
+      assets/css/style.css: {}
+
+slide-menu-js:
+  js:
+    assets/js/index.js : {}
+  dependencies:
+    - core/jquery
