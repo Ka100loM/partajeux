@@ -57,7 +57,13 @@
         </div>
       {% endif %}
       <div class="col-sm-6 mainmenu">
-        <div class="mobilenavi"></div>
+        <div class="col-md-6">
+        {% if page.top_right_nav %}
+          <div class="text-right no-bullets">
+          {{ page.top_right_nav }}
+          </div>
+        {% endif %}
+        </div>
         <nav id="navigation" role="navigation">
           <div id="main-menu">
             {% if page.main_navigation %}
