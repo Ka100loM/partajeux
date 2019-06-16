@@ -8,6 +8,7 @@ description: 'Partajeux Theme.'
 regions:
   header: 'Header'
   main_navigation: 'Main Navigation'
+  top_right_nav: 'Top right Navigation'
   preface_first: 'Preface First'
   preface_second: 'Preface Second'
   preface_third: 'Preface Third'
@@ -26,6 +27,7 @@ regions:
 libraries:
   - nexus/global-css
   - nexus/global-js
+  - partajeux/global-css-custom
 
 # Information added by Drupal.org packaging script on 2018-06-08
 version: '8.x-1.4'

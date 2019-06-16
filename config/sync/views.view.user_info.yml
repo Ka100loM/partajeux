@@ -2,6 +2,8 @@ uuid: aba7f7a2-4bbf-4be8-9c62-da484f798fc7
 langcode: fr
 status: true
 dependencies:
+  config:
+    - user.role.authenticated
   module:
     - user
 id: user_info
@@ -20,9 +22,10 @@ display:
     position: 0
     display_options:
       access:
-        type: perm
+        type: role
         options:
-          perm: 'access user profiles'
+          role:
+            authenticated: authenticated
       cache:
         type: tag
         options: {  }
@@ -204,7 +207,7 @@ display:
           click_sort_column: value
           type: boolean
           settings:
-            format: on-off
+            format: enabled-disabled
             format_custom_true: ''
             format_custom_false: ''
           group_column: value
@@ -221,17 +224,6 @@ display:
           entity_field: status
           plugin_id: field
       filters:
-        status:
-          value: '1'
-          table: users_field_data
-          field: status
-          plugin_id: boolean
-          entity_type: user
-          entity_field: status
-          id: status
-          expose:
-            operator: ''
-          group: 1
         uid_current:
           id: uid_current
           table: users
@@ -298,7 +290,7 @@ display:
         - 'languages:language_content'
         - 'languages:language_interface'
         - user
-        - user.permissions
+        - user.roles
       tags: {  }
   block_1:
     display_plugin: block
@@ -314,5 +306,5 @@ display:
         - 'languages:language_content'
         - 'languages:language_interface'
         - user
-        - user.permissions
+        - user.roles
       tags: {  }

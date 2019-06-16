@@ -92,7 +92,7 @@ body {
 #show-sidebar {
   position: fixed;
   left: 0;
-  top: 130px;
+  top: 65px;
   border-radius: 0 4px 4px 0px;
   width: 35px;
   transition-delay: 0.3s;
@@ -479,3 +479,4 @@ body {
 .chiller-theme .sidebar-footer>a:last-child {
     border-right: none;
 }
+
