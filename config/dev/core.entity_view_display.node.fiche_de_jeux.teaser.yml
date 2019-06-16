@@ -28,4 +28,11 @@ content:
     third_party_settings: {  }
     region: content
 hidden:
+  field_age: true
+  field_annee_d_edition: true
+  field_auteur: true
+  field_categorie: true
+  field_edition: true
+  field_effectif: true
+  field_image: true
   langcode: true
