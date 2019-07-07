@@ -1,0 +1,4 @@
+access user_stat:
+  title: 'Hello module user stat access'
+  description: 'Hello module user stat access'
+  restrict access: TRUE

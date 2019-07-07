@@ -1,0 +1,5 @@
+services:
+  access_check.example:
+    class: Drupal\hello\Access\ExampleAccessCheck
+    tags:
+      - { name: access_check, applies_to: _access_example }
