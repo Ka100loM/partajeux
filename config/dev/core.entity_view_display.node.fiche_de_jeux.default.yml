@@ -8,6 +8,7 @@ dependencies:
     - field.field.node.fiche_de_jeux.field_annee_d_edition
     - field.field.node.fiche_de_jeux.field_auteur
     - field.field.node.fiche_de_jeux.field_categorie
+    - field.field.node.fiche_de_jeux.field_code_a_barre
     - field.field.node.fiche_de_jeux.field_edition
     - field.field.node.fiche_de_jeux.field_effectif
     - field.field.node.fiche_de_jeux.field_image
@@ -59,6 +60,15 @@ content:
       link: true
     third_party_settings: {  }
     type: entity_reference_label
+    region: content
+  field_code_a_barre:
+    weight: 9
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
     region: content
   field_edition:
     weight: 5

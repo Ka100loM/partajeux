@@ -1,0 +1,29 @@
+uuid: 457c83ac-b862-4382-8754-9f47ac3f894b
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.node.jeux.body
+    - node.type.jeux
+  module:
+    - text
+    - user
+id: node.jeux.default
+targetEntityType: node
+bundle: jeux
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true
