@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.node.jeux.body
+    - field.field.node.jeux.field_fiche_de_jeux
     - node.type.jeux
   module:
     - text
@@ -19,6 +20,14 @@ content:
     weight: 101
     settings: {  }
     third_party_settings: {  }
+    region: content
+  field_fiche_de_jeux:
+    weight: 102
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
     region: content
   links:
     weight: 100

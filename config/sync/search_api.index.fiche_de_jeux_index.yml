@@ -1,0 +1,49 @@
+uuid: a6731464-b32c-4e44-bdff-b2eac021a9f9
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_code_a_barre
+    - search_api.server.searsh_server
+  module:
+    - search_api
+    - node
+id: fiche_de_jeux_index
+name: 'Fiche de jeux index'
+description: ''
+read_only: false
+field_settings:
+  field_code_a_barre:
+    label: 'code à barre'
+    datasource_id: 'entity:node'
+    property_path: field_code_a_barre
+    type: integer
+    dependencies:
+      config:
+        - field.storage.node.field_code_a_barre
+datasource_settings:
+  'entity:node':
+    bundles:
+      default: false
+      selected:
+        - fiche_de_jeux
+    languages:
+      default: true
+      selected: {  }
+processor_settings:
+  add_url: {  }
+  aggregated_field: {  }
+  ignorecase:
+    all_fields: true
+    fields: {  }
+    weights:
+      preprocess_index: -20
+      preprocess_query: -20
+  rendered_item: {  }
+tracker_settings:
+  default:
+    indexing_order: fifo
+options:
+  index_directly: true
+  cron_limit: 50
+server: searsh_server
