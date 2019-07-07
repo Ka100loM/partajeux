@@ -1,0 +1,110 @@
+<?php 
+    use Drupal\Core\Database\Database;
+
+    function partajeux_schema(){
+        $schema['partajeux_jeux'] = [
+            'description' => 'Store fisical Jeux',
+            'fields' =>[
+                'id' => [
+                    'description' => 'Primary Key: Unique history ID.',
+                    'type' => 'serial',
+                    'unsigned' => TRUE,
+                    'not null' => TRUE,
+                ],
+                'id_fiche' => [
+                    'description' => "Store user ID.",
+                    'type' => 'int',
+                    'length' => 10,
+                    'not null' => TRUE,
+                    'unsigned' => TRUE,
+                ],
+                'id_user' => [
+                    'description' => 'Store user id',
+                    'type' => 'int',
+                    'length' => 10,
+                    'unsigned' => TRUE,
+                    'not null' => TRUE,
+                ],
+                'status' => [ 
+                    'description' => "Store jeux status donne/pret.",
+                    'type' => 'int',
+                    'length' => 1,
+                    'not null' => TRUE,
+                    'unsigned' => TRUE,
+                ],
+                'updated_at' => [
+                    'description' => 'timestam last update',
+                    'type' => 'int',
+                    'length' => 10,
+                    'not null' => TRUE,
+                    'unsigned' => TRUE,
+                ],
+                'created' => [
+                    'description' => 'Timestamp created date',
+                    'type' => 'int',
+                    'lenght' => 10,
+                    'not null' => TRUE,
+                    'unsigned' => TRUE,
+                ],
+                'deleted_at' => [
+                    'description' => 'timestamp deleted',
+                    'type' => 'int',
+                    'lenght' => 10,
+                    'not null' => TRUE,
+                    'unsigned' => TRUE,
+
+                    ]
+
+            ],
+            'primary key' => ['id'],
+        ];
+        $schema['partajeux_jeux_transactions'] = [
+            'description' => 'Store Jeux Transactions',
+            'fields' =>[
+                'id' => [
+                    'description' => 'Primary Key: Unique transaction ID.',
+                    'type' => 'serial',
+                    'unsigned' => TRUE,
+                    'not null' => TRUE,
+                ],
+                'id_fiche' => [
+                    'description' => "Store user ID.",
+                    'type' => 'int',
+                    'length' => 10,
+                    'not null' => TRUE,
+                    'unsigned' => TRUE,
+                ],
+                'id_user' => [
+                    'description' => 'Store user id',
+                    'type' => 'int',
+                    'length' => 10,
+                    'not null' => TRUE,
+                    'unsigned' => TRUE,
+                ],
+                'id_user2' => [
+                    'description' => 'Store user2 id',
+                    'type' => 'int',
+                    'length' => 10,
+                    'not null' => TRUE,
+                    'unsigned' => TRUE,
+                ],
+                'metod' => [ 
+                    'description' => "Store transaction metod donne/pret.",
+                    'type' => 'int',
+                    'length' => 1,
+                    'not null' => TRUE,
+                    'unsigned' => TRUE,
+                ],
+                'date' => [
+                    'description' => 'timestamp transaction date',
+                    'type' => 'int',
+                    'length' => 10,
+                    'not null' => TRUE,
+                    'unsigned' => TRUE,
+                ]
+
+            ],
+            'primary key' => ['id'],
+        ];
+        return $schema;
+    }

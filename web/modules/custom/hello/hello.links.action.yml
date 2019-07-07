@@ -1,0 +1,5 @@
+hello.action:
+  route_name: hello.target
+  title: 'Hi!'
+  appears_on:
+   - hello.page

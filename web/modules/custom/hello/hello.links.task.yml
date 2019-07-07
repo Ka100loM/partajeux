@@ -1,0 +1,30 @@
+hello.hello:
+  title: 'Hi!'
+  route_name: hello.hello
+  base_route: hello.hello
+  weight: 1
+  
+hello.node:
+  title: 'Node List'
+  route_name: hello.node
+  base_route: hello.hello
+  weight: 2  
+
+hello.stat:
+  title: 'Connections'
+  route_name: hello.user_stat
+  base_route: entity.user.canonical
+  weight: 3  
+
+hello.form:
+  title: 'Calculator'
+  route_name: hello.calc_form
+  base_route: hello.hello
+  weight: 3 
+
+hello.stat.config:
+  title: 'User Stat Purge'
+  route_name: hello.user_stat_purge
+  base_route: hello.hello
+  weight: 4
+  
