@@ -9,7 +9,7 @@ _core:
 id: partajeux_page_title
 theme: partajeux
 region: content_top
-weight: -50
+weight: -7
 provider: null
 plugin: page_title_block
 settings:

@@ -1,0 +1,21 @@
+uuid: d0cf5da9-b878-485e-973e-04d7e042dda4
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_fiche_de_jeux
+    - node.type.jeux
+id: node.jeux.field_fiche_de_jeux
+field_name: field_fiche_de_jeux
+entity_type: node
+bundle: jeux
+label: 'fiche de jeux'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:search_api_index'
+  handler_settings: {  }
+field_type: entity_reference
