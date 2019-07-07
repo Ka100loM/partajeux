@@ -1,0 +1,22 @@
+uuid: 07360579-2cd5-4491-919c-c34476ebba29
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.jeux
+  module:
+    - text
+id: node.jeux.body
+field_name: body
+entity_type: node
+bundle: jeux
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

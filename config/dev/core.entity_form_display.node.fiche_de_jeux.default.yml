@@ -8,6 +8,7 @@ dependencies:
     - field.field.node.fiche_de_jeux.field_annee_d_edition
     - field.field.node.fiche_de_jeux.field_auteur
     - field.field.node.fiche_de_jeux.field_categorie
+    - field.field.node.fiche_de_jeux.field_code_a_barre
     - field.field.node.fiche_de_jeux.field_edition
     - field.field.node.fiche_de_jeux.field_effectif
     - field.field.node.fiche_de_jeux.field_image
@@ -64,6 +65,13 @@ content:
     settings: {  }
     third_party_settings: {  }
     type: options_select
+    region: content
+  field_code_a_barre:
+    weight: 26
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
     region: content
   field_edition:
     weight: 11

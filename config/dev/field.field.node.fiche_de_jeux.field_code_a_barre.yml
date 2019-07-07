@@ -1,0 +1,23 @@
+uuid: b84587be-e820-4218-ae71-488d0a16c9aa
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_code_a_barre
+    - node.type.fiche_de_jeux
+id: node.fiche_de_jeux.field_code_a_barre
+field_name: field_code_a_barre
+entity_type: node
+bundle: fiche_de_jeux
+label: 'code à barre'
+description: 'L''EAN  composé de 8 ou 13 chiffres.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 10000000
+  max: 9999999999999
+  prefix: ''
+  suffix: ''
+field_type: integer
