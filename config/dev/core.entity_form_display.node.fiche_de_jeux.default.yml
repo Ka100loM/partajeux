@@ -12,6 +12,7 @@ dependencies:
     - field.field.node.fiche_de_jeux.field_edition
     - field.field.node.fiche_de_jeux.field_effectif
     - field.field.node.fiche_de_jeux.field_image
+    - field.field.node.fiche_de_jeux.field_transaction
     - image.style.thumbnail
     - node.type.fiche_de_jeux
   module:
@@ -82,11 +83,12 @@ content:
     type: string_textfield
     region: content
   field_effectif:
-    weight: 13
+    weight: 28
     settings:
+      size: 60
       placeholder: ''
     third_party_settings: {  }
-    type: number
+    type: string_textfield
     region: content
   field_image:
     weight: 9
@@ -95,6 +97,12 @@ content:
       preview_image_style: thumbnail
     third_party_settings: {  }
     type: image_image
+    region: content
+  field_transaction:
+    weight: 27
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
     region: content
   langcode:
     type: language_select

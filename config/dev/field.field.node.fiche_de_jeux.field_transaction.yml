@@ -1,0 +1,23 @@
+uuid: b023824d-37fb-496e-85d9-c329580f9e6e
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_transaction
+    - node.type.fiche_de_jeux
+  module:
+    - options
+id: node.fiche_de_jeux.field_transaction
+field_name: field_transaction
+entity_type: node
+bundle: fiche_de_jeux
+label: 'Ce jeux est disponible pour'
+description: 'Choix de la transaction : don, prêt ou vente'
+required: true
+translatable: false
+default_value:
+  -
+    value: 'Don,'
+default_value_callback: ''
+settings: {  }
+field_type: list_string

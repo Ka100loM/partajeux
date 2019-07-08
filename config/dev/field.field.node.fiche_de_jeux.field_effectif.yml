@@ -1,4 +1,4 @@
-uuid: 338d6e5a-f7b7-45aa-b6ac-0ae90f16e8ae
+uuid: 729121e0-3a63-4494-a4f0-5f79d2633391
 langcode: fr
 status: true
 dependencies:
@@ -9,15 +9,11 @@ id: node.fiche_de_jeux.field_effectif
 field_name: field_effectif
 entity_type: node
 bundle: fiche_de_jeux
-label: Effectif
-description: 'Le nombre maximum de personne qui peuvent jouer le jeux'
+label: Effectifs
+description: 'Nombre de personnes pouvant jouer le jeux.'
 required: true
 translatable: false
 default_value: {  }
 default_value_callback: ''
-settings:
-  min: null
-  max: null
-  prefix: ''
-  suffix: personne(s)
-field_type: integer
+settings: {  }
+field_type: string

@@ -1,4 +1,4 @@
-uuid: 9c0be651-26bc-4769-8a72-ef8468d22dfb
+uuid: 72c602eb-2b16-46ae-9ee1-29c6346cd81b
 langcode: fr
 status: true
 dependencies:
@@ -7,10 +7,11 @@ dependencies:
 id: node.field_effectif
 field_name: field_effectif
 entity_type: node
-type: integer
+type: string
 settings:
-  unsigned: false
-  size: normal
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
 module: core
 locked: false
 cardinality: 1
