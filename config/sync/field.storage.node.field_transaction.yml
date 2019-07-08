@@ -1,0 +1,30 @@
+uuid: f72b2adf-e510-468d-9513-ba4e19c6b4ef
+langcode: fr
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_transaction
+field_name: field_transaction
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: Don
+      label: Don
+    -
+      value: Prêt
+      label: Prêt
+    -
+      value: Vente
+      label: Vente
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

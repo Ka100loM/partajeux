@@ -12,9 +12,11 @@ dependencies:
     - field.field.node.fiche_de_jeux.field_edition
     - field.field.node.fiche_de_jeux.field_effectif
     - field.field.node.fiche_de_jeux.field_image
+    - field.field.node.fiche_de_jeux.field_transaction
     - node.type.fiche_de_jeux
   module:
     - image
+    - options
     - text
     - user
 id: node.fiche_de_jeux.default
@@ -79,13 +81,12 @@ content:
     type: string
     region: content
   field_effectif:
-    weight: 7
+    weight: 11
     label: above
     settings:
-      thousand_separator: ''
-      prefix_suffix: true
+      link_to_entity: false
     third_party_settings: {  }
-    type: number_integer
+    type: string
     region: content
   field_image:
     weight: 3
@@ -95,6 +96,13 @@ content:
       image_link: ''
     third_party_settings: {  }
     type: image
+    region: content
+  field_transaction:
+    weight: 10
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
     region: content
   links:
     weight: 0
