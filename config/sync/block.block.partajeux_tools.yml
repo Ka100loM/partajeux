@@ -13,7 +13,7 @@ _core:
 id: partajeux_tools
 theme: partajeux
 region: sidebar_first
-weight: -4
+weight: -6
 provider: null
 plugin: 'system_menu_block:tools'
 settings:

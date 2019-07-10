@@ -5,13 +5,14 @@ dependencies:
   config:
     - views.view.liste_de_jeux_trouves
   module:
+    - system
     - views
   theme:
     - partajeux
 id: formulaireexposeliste_de_jeux_trouvespage_1
 theme: partajeux
 region: content_top
-weight: -6
+weight: -7
 provider: null
 plugin: 'views_exposed_filter_block:liste_de_jeux_trouves-page_1'
 settings:
@@ -20,4 +21,9 @@ settings:
   provider: views
   label_display: '0'
   views_label: ''
-visibility: {  }
+visibility:
+  request_path:
+    id: request_path
+    pages: /node/1
+    negate: false
+    context_mapping: {  }

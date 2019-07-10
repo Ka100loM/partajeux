@@ -1,0 +1,12 @@
+uuid: b24d4dc4-16e2-43b8-bbb5-53d4db4052ab
+langcode: fr
+status: true
+dependencies:
+  module:
+    - private_message
+_core:
+  default_config_hash: ZfiDSEdeDse0qMWBsb0u9YVhJ05_ySCpkBuBi_DlFd0
+id: private_message.inbox
+label: 'Boîte de réception'
+targetEntityType: private_message
+cache: true
