@@ -1,11 +1,11 @@
-uuid: cc8e9a69-a648-4562-9c84-7335dcb8a74b
+uuid: 2c3054ab-4a1b-44fe-898d-c26c33fac137
 langcode: fr
-status: false
+status: true
 dependencies:
   module:
     - search_api_db
-id: searsh_server
-name: 'searsh server'
+id: jeux_search_server
+name: 'jeux search server'
 description: ''
 backend: search_api_db
 backend_config:

@@ -1,27 +1,18 @@
-uuid: a6731464-b32c-4e44-bdff-b2eac021a9f9
+uuid: 2950a3ee-fb95-4f53-b32b-4534eb93c77f
 langcode: fr
-status: false
+status: true
 dependencies:
   config:
-    - field.storage.node.field_auteur
     - field.storage.node.field_code_a_barre
-    - search_api.server.searsh_server
+    - search_api.server.jeux_search_server
   module:
     - node
     - search_api
-id: fiche_de_jeux_index
-name: 'Fiche de jeux index'
+id: jeux_index
+name: 'jeux index'
 description: ''
 read_only: false
 field_settings:
-  field_auteur:
-    label: Auteur
-    datasource_id: 'entity:node'
-    property_path: field_auteur
-    type: string
-    dependencies:
-      config:
-        - field.storage.node.field_auteur
   field_code_a_barre:
     label: 'code à barre'
     datasource_id: 'entity:node'
@@ -50,14 +41,6 @@ datasource_settings:
 processor_settings:
   add_url: {  }
   aggregated_field: {  }
-  ignorecase:
-    all_fields: true
-    fields:
-      - field_auteur
-      - title
-    weights:
-      preprocess_index: -20
-      preprocess_query: -20
   rendered_item: {  }
 tracker_settings:
   default:
@@ -65,4 +48,4 @@ tracker_settings:
 options:
   index_directly: true
   cron_limit: 50
-server: searsh_server
+server: jeux_search_server

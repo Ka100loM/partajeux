@@ -1,0 +1,23 @@
+uuid: d3cc70be-aa77-42ff-9048-2be5b87ee0bd
+langcode: fr
+status: true
+dependencies:
+  config:
+    - views.view.liste_de_jeux_trouves
+  module:
+    - views
+  theme:
+    - partajeux
+id: formulaireexposeliste_de_jeux_trouvespage_1
+theme: partajeux
+region: content_top
+weight: -6
+provider: null
+plugin: 'views_exposed_filter_block:liste_de_jeux_trouves-page_1'
+settings:
+  id: 'views_exposed_filter_block:liste_de_jeux_trouves-page_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+visibility: {  }
