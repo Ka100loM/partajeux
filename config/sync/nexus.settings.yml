@@ -23,9 +23,6 @@ slide3_url: contact
 _core:
   default_config_hash: zspC3IWx3gB7P08cyRQxXDFS-z8yLO9-4ziiOPrjkNI
 langcode: fr
-slide1_image:
-  - '13'
-slide2_image:
-  - '14'
-slide3_image:
-  - '15'
+slide1_image: {  }
+slide2_image: {  }
+slide3_image: {  }
