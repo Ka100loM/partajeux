@@ -24,7 +24,8 @@ _core:
   default_config_hash: zspC3IWx3gB7P08cyRQxXDFS-z8yLO9-4ziiOPrjkNI
 langcode: fr
 slide1_image:
-  - '8'
+  - '13'
 slide2_image:
-  - '11'
-slide3_image: {  }
+  - '14'
+slide3_image:
+  - '15'
