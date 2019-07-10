@@ -37,9 +37,11 @@ module:
   system: 0
   taxonomy: 0
   text: 0
+  token: 0
   toolbar: 0
   update: 0
   user: 0
+  views_add_button: 0
   webform: 0
   webform_access: 0
   webform_image_select: 0

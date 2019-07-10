@@ -32,6 +32,7 @@
         "drupal/nexus": "^1.4",
         "drupal/redirect_after_login": "^2.5",
         "drupal/search_api": "^1.13",
+        "drupal/views_add_button": "^1.1",
         "drupal/webform": "^5.2",
         "drush/drush": "^9.0.0",
         "twig/twig": "1.39.1",
