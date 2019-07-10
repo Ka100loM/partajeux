@@ -11,15 +11,20 @@ favicon:
   path: ''
 slideshow_display: 1
 show_breadcrumbs: 1
-slide1_head: 'Sample product'
+slide1_head: 'Marre de vous ruiner dans les jeux de société?'
 slide2_head: 'Sample service'
-slide3_head: 'Contact us'
-slide1_desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt elit, sed do eiusmod tempor...'
+slide3_head: 'Nous contacter'
+slide1_desc: "Partajeux est LA solution!\r\n\r\nPrêtez, échangez et donnez vos jeux en toute sécurité, et soulagez le porte-monnaie du ludiste que vous êtes!"
 slide2_desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do Lorem ipsum dolor sit amet irure dolor in reprehenderit...'
-slide3_desc: 'Duis aute irure dolor in reprehenderit inLorem ipsum dolor sit amet, consectetur do Lorem ipsum dolor sit amet irure...'
-slide1_url: node/1
+slide3_desc: "Une question, une suggestion?\r\n\r\nN'hésitez pas à nous contacter, nous serons ravis de la lire!"
+slide1_url: node/2
 slide2_url: node/2
-slide3_url: node/3
+slide3_url: contact
 _core:
   default_config_hash: zspC3IWx3gB7P08cyRQxXDFS-z8yLO9-4ziiOPrjkNI
 langcode: fr
+slide1_image:
+  - '8'
+slide2_image:
+  - '11'
+slide3_image: {  }

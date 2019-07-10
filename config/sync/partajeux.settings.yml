@@ -10,15 +10,18 @@ favicon:
   use_default: 1
 show_breadcrumbs: 1
 slideshow_display: 1
-slide1_head: 'Sample product'
-slide1_desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt elit, sed do eiusmod tempor...'
-slide1_url: node/1
-slide1_image: {  }
+slide1_head: 'Marre de vous ruiner dans les jeux de société?'
+slide1_desc: "On a la solution! Partajeux est le site qui permettra aux ludistes que vous êtes de prêter, d'échanger et de donner des jeux de société!\r\n\r\nRejoignez notre communauté!"
+slide1_url: node/2
+slide1_image:
+  - '5'
 slide2_head: 'Sample service'
 slide2_desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do Lorem ipsum dolor sit amet irure dolor in reprehenderit...'
 slide2_url: node/2
-slide2_image: {  }
-slide3_head: 'Contact us'
-slide3_desc: 'Duis aute irure dolor in reprehenderit inLorem ipsum dolor sit amet, consectetur do Lorem ipsum dolor sit amet irure...'
+slide2_image:
+  - '7'
+slide3_head: 'Nous contacter'
+slide3_desc: "Une question, une suggestion?\r\n\r\nNous serons ravis de la lire!"
 slide3_url: node/3
-slide3_image: {  }
+slide3_image:
+  - '6'
