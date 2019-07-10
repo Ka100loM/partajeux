@@ -5,6 +5,7 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
   module:
+    - masonry_views
     - node
     - user
 id: liste_de_jeux_trouves
@@ -66,7 +67,22 @@ display:
             previous: ‹‹
             next: ››
       style:
-        type: default
+        type: masonry
+        options:
+          row_class: ''
+          default_row_class: true
+          uses_fields: false
+          layoutColumnWidth: ''
+          layoutColumnWidthUnit: px
+          gutterWidth: '0'
+          stampSelector: ''
+          isLayoutResizable: 1
+          isLayoutAnimated: 1
+          layoutAnimationDuration: '500'
+          isLayoutFitsWidth: 0
+          isLayoutRtlMode: 0
+          isLayoutImagesLoadedFirst: 1
+          isItemsPositionInPercent: 0
       row:
         type: 'entity:node'
         options:
@@ -184,6 +200,7 @@ display:
       relationships: {  }
       arguments: {  }
       display_extenders: {  }
+      use_ajax: true
     cache_metadata:
       max-age: -1
       contexts:
