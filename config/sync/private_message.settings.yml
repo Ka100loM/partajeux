@@ -1,0 +1,6 @@
+enable_email_notifications: true
+send_by_default: false
+hide_form_filter_tips: true
+_core:
+  default_config_hash: 4EICpUJyEgT7BPbJRxo56NdQGlgNxxA0euUVX_uNXpM
+langcode: fr
